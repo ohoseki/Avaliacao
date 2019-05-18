@@ -12,11 +12,11 @@ import br.com.fiap.common.Questao;
 
 public class AvaliacaoRmiJboss {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception  {
 
 		Properties props = new Properties();
 		props.setProperty("java.naming.factory.initial", "org.jnp.interfaces.NamingContextFactory");
-		props.setProperty("java.naming.provider.url", "192.168.0.27:1099");
+		props.setProperty("java.naming.provider.url", "192.168.1.102:1099");
 
 		Context context;
 		try {
@@ -30,7 +30,7 @@ public class AvaliacaoRmiJboss {
 
 				if (i == 0) {
 
-					System.out.println("*******Avaliacao " + (i + 1) + "**********");
+					System.out.println("*******Avaliacao " + (i + 1) + "*******");
 
 				}
 
@@ -42,7 +42,7 @@ public class AvaliacaoRmiJboss {
 
 				if (i == questao.size() - 1) {
 
-					System.out.println("*******Final da Avaliacao " + (i) + "**********");
+					System.out.println("*******Final da Avaliacao " + (i) + "*******");
 
 				}
 
