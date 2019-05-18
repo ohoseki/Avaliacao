@@ -1,0 +1,6 @@
+IP da MAQUINA = 192.168.1.102 NOME DO JNDI = Avaliacao (para o LOOKUP foi usado "AvaliacaoBean/remote" )
+java.naming.provider.url=192.168.1.102:1099
+
+Caminho do WEBSERVICE http://192.168.1.102:8080/aula5-avaliacao/AvaliacaoBean?wsdl
+
+Caminho do projeto no GIT = https://github.com/ohoseki/avaliacao
